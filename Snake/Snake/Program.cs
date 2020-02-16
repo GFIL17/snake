@@ -22,16 +22,13 @@ namespace Snake
             upline.Drow();
             downline.Drow();
             leftline.Drow();
-            rightline.Drow();
-
-            
-            
+            rightline.Drow();      
 
 
             Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Drow();
-
+            snake.Move();
             
         }        
     }
